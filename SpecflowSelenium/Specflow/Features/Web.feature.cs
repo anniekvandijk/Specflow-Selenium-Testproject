@@ -83,6 +83,8 @@ this.ScenarioSetup(scenarioInfo);
 #line 11
  testRunner.And("ik klik op Jesse", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "En ");
 #line 12
+ testRunner.And("ik klik op F5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "En ");
+#line 13
  testRunner.Then("zie ik de details van Jesse", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dan ");
 #line hidden
             this.ScenarioCleanup();

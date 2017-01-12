@@ -10,3 +10,15 @@ D:\NET\Specflow-Selenium\SpecflowSelenium\bin\Debug\WebDriver.Support.xml
 D:\NET\Specflow-Selenium\SpecflowSelenium\obj\Debug\SpecflowSelenium.dll
 D:\NET\Specflow-Selenium\SpecflowSelenium\obj\Debug\SpecflowSelenium.pdb
 D:\NET\Specflow-Selenium\SpecflowSelenium\obj\Debug\SpecflowSelenium.csprojResolveAssemblyReference.cache
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\SpecflowSelenium.dll.config
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\SpecflowSelenium.dll
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\SpecflowSelenium.pdb
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\TechTalk.SpecFlow.dll
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\WebDriver.dll
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\WebDriver.Support.dll
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\WebDriver.xml
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\WebDriver.Support.xml
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.csprojResolveAssemblyReference.cache
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.dll
+D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.pdb

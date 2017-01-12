@@ -1,7 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
-using System;
+using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Support.Extensions;
+using OpenQA.Selenium.Support.UI;
 using TechTalk.SpecFlow;
 using SpecflowSelenium.Specflow.Pages;
 
@@ -33,7 +35,19 @@ namespace SpecflowSelenium.Specflow.StepDefinitions
         {
             _alpacaSPage.SelectJesse();
         }
-        
+
+        [When(@"ik klik op functietoetsen")]
+        public void AlsIkKlikOpFunctietoets()
+        {
+            // Actions werken niet in Firefox met gecko driver
+            Actions actions = new Actions(_driver);
+            actions.SendKeys(Keys.PageDown).Perform();
+            actions.SendKeys(Keys.PageUp).Perform();
+            // Onderstaande werken niet in Chrome. 
+            actions.SendKeys(Keys.F5);
+            actions.KeyDown(Keys.LeftAlt).SendKeys(Keys.ArrowLeft).Perform();
+         }
+
         [Then(@"zie ik de details van Jesse")]
         public void DanIkDeDetailsVanJesse()
         {

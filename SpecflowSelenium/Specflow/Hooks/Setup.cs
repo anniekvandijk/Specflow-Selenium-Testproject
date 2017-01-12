@@ -1,6 +1,8 @@
-﻿using OpenQA.Selenium;
+﻿using System.Diagnostics;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System.IO;
+using OpenQA.Selenium.Firefox;
 using TechTalk.SpecFlow;
 
 namespace SpecflowSelenium.Specflow.Hooks
@@ -15,7 +17,17 @@ namespace SpecflowSelenium.Specflow.Hooks
         public void BeforeScenario()
         {
             _driver = new ChromeDriver(_projectDir + @"\SpecflowSelenium\Specflow\Drivers");
+            //foreach (var process in Process.GetProcessesByName("geckodriver"))
+            //{
+            //    process.Kill();
+            //}
+
+            //FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(_projectDir + @"\SpecflowSelenium\Specflow\Drivers", "geckodriver.exe");
+            //service.Port = 64444;
+            //_driver = new FirefoxDriver(service);
+
             ScenarioContext.Current["driver"] = _driver;
+           
         }
 
         [AfterScenario]
