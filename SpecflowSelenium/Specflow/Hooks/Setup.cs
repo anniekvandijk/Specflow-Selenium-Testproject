@@ -17,15 +17,6 @@ namespace SpecflowSelenium.Specflow.Hooks
         public void BeforeScenario()
         {
             _driver = new ChromeDriver(_projectDir + @"\SpecflowSelenium\Specflow\Drivers");
-            //foreach (var process in Process.GetProcessesByName("geckodriver"))
-            //{
-            //    process.Kill();
-            //}
-
-            //FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(_projectDir + @"\SpecflowSelenium\Specflow\Drivers", "geckodriver.exe");
-            //service.Port = 64444;
-            //_driver = new FirefoxDriver(service);
-
             ScenarioContext.Current["driver"] = _driver;
            
         }
@@ -33,7 +24,7 @@ namespace SpecflowSelenium.Specflow.Hooks
         [AfterScenario]
         public void AfterScenario()
         {
-          //  _driver.Dispose();
+            _driver.Dispose();
         }
     }
 }

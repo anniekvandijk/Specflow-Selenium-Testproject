@@ -4,7 +4,7 @@ using TechTalk.SpecFlow;
 
 namespace SpecflowSelenium.Specflow.PageObjects
 {
-    class AlpacaDetailSPageObjects
+    public class AlpacaDetailSPageObjects
     {
 
         private readonly IWebDriver _driver = (IWebDriver)ScenarioContext.Current["driver"];
@@ -13,9 +13,8 @@ namespace SpecflowSelenium.Specflow.PageObjects
         {
             PageFactory.InitElements(_driver, this);
         }
-
-
-        [FindsBy(How = How.XPath, Using = "*//h2[text()='Alpacamundo Jesse']")]
-        public IWebElement Header2Jesse;
+        
+        [FindsBy(How = How.XPath, Using = "*//*[contains(@class, 'field--name-field-lange-naam')]")]
+        public IWebElement FullName { get; set; }
     }
 }

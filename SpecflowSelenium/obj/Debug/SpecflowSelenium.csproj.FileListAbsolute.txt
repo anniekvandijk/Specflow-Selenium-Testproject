@@ -22,3 +22,17 @@ D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\WebDriver.Suppor
 D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.csprojResolveAssemblyReference.cache
 D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.dll
 D:\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.pdb
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\SpecflowSelenium.dll.config
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\SpecflowSelenium.dll
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\SpecflowSelenium.pdb
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\TechTalk.SpecFlow.dll
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\WebDriver.dll
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\WebDriver.Support.dll
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\WebDriver.xml
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\bin\Debug\WebDriver.Support.xml
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.csprojAssemblyReference.cache
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.csproj.CopyComplete
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.dll
+D:\OneDrive\Documenten\05 Apps\NET\Specflow-Selenium-Testproject\SpecflowSelenium\obj\Debug\SpecflowSelenium.pdb

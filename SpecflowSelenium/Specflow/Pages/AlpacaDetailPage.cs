@@ -8,7 +8,7 @@ namespace SpecflowSelenium.Specflow.Pages
 
     public string FullName()
         {
-            return _pageObjects.Header2Jesse.Text;
+            return _pageObjects.FullName.Text;
         }
     }
 }

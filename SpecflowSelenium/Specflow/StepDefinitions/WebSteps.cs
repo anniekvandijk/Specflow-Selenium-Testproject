@@ -30,10 +30,10 @@ namespace SpecflowSelenium.Specflow.StepDefinitions
             _homePage.SelectMenuItemOnzeAlpacaS();
         }
         
-        [When(@"ik klik op Jesse")]
-        public void AlsIkKlikOpJesse()
+        [When(@"ik klik op '(.*)'")]
+        public void AlsIkKlikOpJesse(string name)
         {
-            _alpacaSPage.SelectJesse();
+            _alpacaSPage.SelectAlpaca(name);
         }
 
         [When(@"ik klik op functietoetsen")]
@@ -48,10 +48,10 @@ namespace SpecflowSelenium.Specflow.StepDefinitions
             actions.KeyDown(Keys.LeftAlt).SendKeys(Keys.ArrowLeft).Perform();
          }
 
-        [Then(@"zie ik de details van Jesse")]
-        public void DanIkDeDetailsVanJesse()
+        [Then(@"zie ik de volledige alpaca naam '(.*)'")]
+        public void DanIkDeDetailsVan(string name)
         {
-            Assert.AreEqual("Alpacamundo Jesse", _alpacaDetailPage.FullName());
+            Assert.AreEqual(name, _alpacaDetailPage.FullName());
         }
     }
 }

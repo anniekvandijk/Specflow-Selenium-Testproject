@@ -13,9 +13,9 @@ namespace SpecflowSelenium.Specflow.PageObjects
         {
             PageFactory.InitElements(_driver, this);
         }
-
-
-        [FindsBy(How = How.LinkText, Using = "Jesse")]
-        public IWebElement LinkJesse;
+        public IWebElement Link(string name)
+        {
+            return _driver.FindElement(By.LinkText(name));
+        }
     }
 }
